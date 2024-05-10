@@ -1,0 +1,60 @@
+.features171-layout349 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.features171-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-items: center;
+}
+.features171-image-container {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.features171-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features171-section-title {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features171-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features171-text1 {
+  font-style: normal;
+  font-family: "Saira Stencil One";
+  font-weight: 400;
+}
+.features171-root-class-name {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #ffffff;
+}
+@media(max-width: 1200px) {
+  .features171-root-class-name {
+    fill: var(--dl-color-theme-neutral-dark);
+    color: #ffffff;
+  }
+}
+@media(max-width: 991px) {
+  .features171-max-width {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+}

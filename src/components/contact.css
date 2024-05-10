@@ -1,0 +1,136 @@
+.contact-contact20 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-max-width {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-section-title {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.contact-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-text1 {
+  font-family: "Saira Stencil One";
+}
+.contact-text2 {
+  text-align: center;
+  font-family: "Quantico";
+}
+.contact-row {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.contact-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: auto;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.contact-contact-info {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-content2 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-text3 {
+  font-size: 30px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: center;
+  font-family: "Saira Stencil One";
+  font-weight: 400;
+}
+.contact-text4 {
+  text-align: center;
+  font-family: "Rajdhani";
+}
+.contact-email {
+  text-align: center;
+  font-family: "Quantico";
+}
+.contact-content3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.contact-contact-info1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-content4 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-text5 {
+  align-self: stretch;
+  font-style: normal;
+  text-align: center;
+  font-family: "Saira Stencil One";
+  font-weight: 400;
+}
+.contact-text6 {
+  text-align: center;
+  font-family: "Rajdhani";
+}
+.contact-phone {
+  text-align: center;
+  font-family: "Quantico";
+}
+.contact-root-class-name {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #ffffff;
+}
+@media(max-width: 1200px) {
+  .contact-root-class-name {
+    fill: var(--dl-color-theme-neutral-dark);
+    color: #ffffff;
+  }
+}
+@media(max-width: 767px) {
+  .contact-row {
+    flex-direction: column;
+  }
+}

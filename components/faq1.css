@@ -1,0 +1,87 @@
+.faq1-faq7 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0e0e0e;
+}
+.faq1-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.faq1-text {
+  color: #ffffff;
+  font-family: "Saira Stencil One";
+}
+.faq1-text01 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.faq1-text02 {
+  font-family: "Quantico";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.faq1-text03 {
+  font-family: "Quantico";
+  font-weight: 700;
+}
+.faq1-li1 {
+  font-family: "Quantico";
+}
+.faq1-text05 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.faq1-text06 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.faq1-text09 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Quantico";
+}
+.faq1-text10 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.faq1-text12 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Quantico";
+}
+.faq1-text13 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.faq1-text15 {
+  color: rgb(255, 255, 255);
+}
+.faq1-text16 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.faq1-text18 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Quantico";
+}
+.faq1-text19 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.faq1-root-class-name1 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: #ffffff;
+}
+@media(max-width: 991px) {
+  .faq1-max-width {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+}

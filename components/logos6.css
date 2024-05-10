@@ -1,0 +1,199 @@
+.logos6-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.logos6-container01 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.logos6-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.logos6-heading {
+  text-align: center;
+}
+.logos6-container03 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.logos6-container04 {
+  gap: 0;
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.logos6-logo1 {
+  object-fit: contain;
+}
+.logos6-container05 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.logos6-logo2 {
+  object-fit: contain;
+}
+.logos6-container06 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.logos6-logo3 {
+  object-fit: contain;
+}
+.logos6-container07 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.logos6-logo4 {
+  object-fit: contain;
+}
+.logos6-container08 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.logos6-logo5 {
+  object-fit: contain;
+}
+.logos6-container09 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.logos6-logo6 {
+  object-fit: contain;
+}
+.logos6-container10 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.logos6-logo7 {
+  object-fit: contain;
+}
+@media(max-width: 991px) {
+  .logos6-container03 {
+    gap: var(--dl-space-space-oneandhalfunits);
+    width: 100%;
+  }
+  .logos6-container04 {
+    align-items: center;
+    justify-content: center;
+  }
+  .logos6-container05 {
+    align-items: center;
+    justify-content: center;
+  }
+  .logos6-container06 {
+    align-items: center;
+    justify-content: center;
+  }
+  .logos6-container07 {
+    align-items: center;
+    justify-content: center;
+  }
+  .logos6-container08 {
+    align-items: center;
+    justify-content: center;
+  }
+  .logos6-container09 {
+    align-items: center;
+    justify-content: center;
+  }
+  .logos6-container10 {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 767px) {
+  .logos6-container03 {
+    padding: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .logos6-container {
+    gap: var(--dl-space-space-unit);
+  }
+  .logos6-container03 {
+    gap: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .logos6-container04 {
+    width: 100%;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .logos6-container05 {
+    width: 100%;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .logos6-container06 {
+    width: 100%;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .logos6-container07 {
+    width: 100%;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .logos6-container08 {
+    width: 100%;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .logos6-container09 {
+    width: 100%;
+    padding: var(--dl-space-space-halfunit);
+  }
+  .logos6-container10 {
+    width: 100%;
+    padding: var(--dl-space-space-halfunit);
+  }
+}
